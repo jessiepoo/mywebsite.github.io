@@ -1,0 +1,284 @@
+
+body{
+    margin:0;
+    font-family: 'Hind', sans-serif;
+}
+
+.hero-image{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-image: url("../assets/realhero.JPG");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+.first-nav {
+top: 0;
+position: absolute;
+font-family: 'Hind', sans-serif;
+}
+
+
+.hero-image h1{
+    color:white; 
+    font-size: 38px;
+    margin-bottom:0.6em;
+    align-self: center center;
+    font-family: 'Playfair Display SC', serif;
+    letter-spacing: 1.3em;
+}
+
+.hero-image h2{
+    color:white; 
+    font-size: 20px;
+    margin-bottom:0.6em;
+    text-decoration: none;
+    font-family: 'Playfair Display SC', serif;
+    letter-spacing: 0.2em;
+    padding-bottom: 2em
+    
+    
+}
+
+.hero-image .btn{
+    color: white;
+    font-size: 0.9em;
+    text-decoration: none;
+
+    display: block;
+    width:150px;
+    border: 1.8px solid white;
+
+    padding:1em;
+    margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.hero-image nav {
+    color:white;
+    margin-top: 2.8em;
+    letter-spacing: 0.2em;
+
+}
+
+.hero-image nav .active{
+    color: #f3b6b68a;
+    
+}
+
+.hero-image a{
+    color:white;
+}
+
+.hero-image a:hover{
+    color: #ffc8d296;
+}
+
+.hero-image .btn:hover {
+    background-color:#b5828b96;
+    color: white;
+}
+
+#active a{
+    color: #ffc8d296;
+}
+
+.firstsection{
+    background-color:white;
+    margin-top: 0em;
+    height: 40em;
+    align-items: center;
+    justify-content: center;
+    
+}
+.firstsection h1{
+    font-size: 44px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 9.6em;
+    padding-top: 4.1em;
+    font-family: 'Playfair Display SC', serif;
+    letter-spacing: 0.4em;
+
+}
+.firstsection p{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 2.6em;
+    width:30em;
+    font-weight: 4em;
+    text-align: center;
+}
+
+.secondsection{
+
+    height: 46em;
+    background-color: slategrey;
+
+ 
+}
+.secondsection h1{
+    padding-top: 3.3em;
+    font-family: 'Playfair Display SC', serif;
+    margin-left:auto;
+    margin-right: auto;
+    width: 11em;
+    font-size: 36px;
+    color: white;
+    letter-spacing: 0.4em;
+
+}
+.secondsubsection{
+    margin-top: 6.2em;
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0em;
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 0em;
+    
+}
+
+.secondsubsection img{
+    width: 17em;
+
+}
+
+.secondsubsection img:hover{
+    -moz-box-shadow: 0 0 40px rgb(58, 58, 58);
+    -webkit-box-shadow: 0 0 40px rgb(63, 63, 63);
+    box-shadow: 0 0 40px rgb(51, 51, 51);
+    webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+    /* filter: blur(4px); */
+    opacity:0.8;
+    transition-duration: 0.15s;
+}
+
+#secondsectiongimg1:hover{
+    transform: scale(1.15);
+    -webkit-filter: brightness(60%);
+}
+
+
+#secondsectiongimg2:hover{
+    transform: scale(1.15);
+    -webkit-filter: brightness(60%);
+}
+#secondsectiongimg3:hover{
+    transform: scale(1.15);
+    -webkit-filter: brightness(60%);
+}
+
+
+
+
+
+.thirdsection{
+    height:45em;
+    width: 100%;
+    text-align: center;
+    background-color:rgb(236, 236, 236);
+    margin-top:-25px;
+}
+
+.thirdsection h1{
+    font-size: 38px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 7em;
+    padding-top: 3.3em;
+    padding-bottom: 0.15em;
+    font-family: 'Playfair Display SC', serif;
+    letter-spacing: 0.4em;
+}
+
+.thirdsubsection{
+    padding-top: 0.4em;
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+
+
+}
+
+.thirdsection img{
+    width: 10.5rem;
+    padding-right: 0.36ex;
+    padding-left: 0.36ex;
+    
+}
+
+
+thirdsubsection{
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+h2{
+    font-weight: bolder;
+    font-size: 25px; 
+    list-style: height 2.5;
+    text-decoration: underline;
+}
+nav a{
+    font-weight: lighter;
+    font-size: 13px; 
+    list-style: height 2.5;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.main-para{
+    width: 80%;
+    border:4em solid #f3b6b68a; 
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-para p{
+    font-size:15px;
+}
+.main-para a{
+    color:black;
+}
+
+*{
+    color:black;
+}
+
+li{
+    font-weight: lighter;
+    font-size: 15px; 
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: height 2.5;
+}
+
+.sub-para {
+    padding:10px;
+}
+
+
+
+
