@@ -156,7 +156,7 @@ font-family: 'Hind', sans-serif;
 
 }
 
-/* .secondsubsection img:hover{
+.secondsubsection img:hover{
     -moz-box-shadow: 0 0 40px rgb(58, 58, 58);
     -webkit-box-shadow: 0 0 40px rgb(63, 63, 63);
     box-shadow: 0 0 40px rgb(51, 51, 51);
@@ -164,7 +164,7 @@ font-family: 'Hind', sans-serif;
     /* filter: blur(4px); */
     opacity:0.8;
     transition-duration: 0.15s;
-} */
+}
 
 #secondsectiongimg1:hover{
     transform: scale(1.15);
