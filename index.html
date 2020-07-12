@@ -28,7 +28,8 @@
             <div class="hero-inner">
                 <h1>Jessica Huang</h1>
                 <h2>Software developer</h2>
-                <a href="projects/mainprojectpage.html" class="btn">Code with me</a>
+                <p class="btn">Code with me</p>
+                <!-- <a href="projects/mainprojectpage.html" class="btn">Code with me</a> -->
             </div>
         </section>
 
@@ -41,45 +42,46 @@
                      pick up the phone and give me a call (or email).</p>
             </div>
             <div class="secondsection">
-                <h1>My projects</h1>
+                <h1 id="my-projects">My projects</h1>
 
                 <div class="secondsubsection">
-                    <a  target="_blank" 
-                         href="https://github.com/jessiepoo/mygastronomicaljourney"> 
-                         <div class="textWithBg">
-                            <img id="secondsectiongimg1" src="assets/butchart1.jpg" alt="Picture cannot be displayed">
-                            <div class="content">
-                                <!-- <h2 class="animate-text">My Gastronomical Journey</h2> -->
-                            </div>
+                    <a  target="_blank" href="https://github.com/jessiepoo/mygastronomicaljourney"> 
+                         <div class="wrapper">
+                            <span class='text' >My Gastronomical Journey</span>
+                            <img id="secondsectiongimg1" src="assets/mygastronomicaljourneypic.png">
                          </div>
-                     
                     </a>
-
-                        <a  target="_blank" 
-                         href="https://github.com/jessiepoo/mygastronomicaljourney"> 
-                        <img id="secondsectiongimg2" src="assets/butchart1.jpg" alt="Picture cannot be displayed"></a>
-
-                        <a  target="_blank" 
-                         href="https://github.com/jessiepoo/mygastronomicaljourney"> 
-                        <img id="secondsectiongimg3" src="assets/butchart1.jpg" alt="Picture cannot be displayed"></a>
+                     <a  target="_blank" href="https://github.com/jessiepoo/mygastronomicaljourney"> 
+                         <div class="wrapper">
+                             <span class='text'>Coming soon...</span>
+                             <img id="secondsectiongimg2" src="assets/butchart1.jpg">
+                         </div>
+                    </a>
+                         
+                    <a  target="_blank" href="https://github.com/jessiepoo/mygastronomicaljourney"> 
+                        <div class="wrapper">
+                            <span class='text'>Coming soon...</span>
+                            <img id="secondsectiongimg2" src="assets/butchart1.jpg">
+                        </div>
+                   </a>
                 </div>
             </div>
 
             <div class="thirdsection">
                 <h1>My Life</h1>
                 <div class="thirdsubsection">
-                    <img src="assets/alpina.jpg" alt="Picture cannot be displayed">
-                    <img src="assets/alpina.jpg" alt="Picture cannot be displayed">
-                    <img src="assets/alpina.jpg" alt="Picture cannot be displayed">
-                    <img src="assets/alpina.jpg" alt="Picture cannot be displayed">
-                    <img src="assets/alpina.jpg" alt="Picture cannot be displayed">
+                    <img src="assets/butchart1.JPG" alt="Picture cannot be displayed">
+                    <img src="assets/butchart1.JPG" alt="Picture cannot be displayed">
+                    <img src="assets/butchart1.JPG" alt="Picture cannot be displayed">
+                    <img src="assets/butchart1.JPG" alt="Picture cannot be displayed">
+                    <img src="assets/butchart1.JPG" alt="Picture cannot be displayed">
                 </div>
                 <div class="thirdsubsection">
-                    <img src="assets/alpina.jpg" alt="Picture cannot be displayed">
-                    <img src="assets/alpina.jpg" alt="Picture cannot be displayed">
-                    <img src="assets/alpina.jpg" alt="Picture cannot be displayed">
-                    <img src="assets/alpina.jpg" alt="Picture cannot be displayed">
-                    <img src="assets/alpina.jpg" alt="Picture cannot be displayed">
+                    <img src="assets/butchart1.JPG" alt="Picture cannot be displayed">
+                    <img src="assets/butchart1.JPG" alt="Picture cannot be displayed">
+                    <img src="assets/butchart1.JPG" alt="Picture cannot be displayed">
+                    <img src="assets/butchart1.JPG" alt="Picture cannot be displayed">
+                    <img src="assets/butchart1.JPG" alt="Picture cannot be displayed">
                 </div>
 
             </div>
@@ -116,7 +118,26 @@
             <br />
         </footer>
 
-        
+        <script src="scripts/main.js"></script>
+        <script src='scripts/jquery-3.5.1.js'></script>
+
+        <script>
+            $(function() {
+
+                $('#secondsectiongimg1').on('hover',function() {
+                    $('.text').fadeIn(500);
+                });
+
+                $('.btn').click(function() {
+                    $('html, body').animate({
+                        scrollTop: $('.secondsection').offset().top}, 1700);
+                   
+                })
+            });
+               
+
+        </script>
+
     </body>
 
 
