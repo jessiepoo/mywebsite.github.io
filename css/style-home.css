@@ -1,4 +1,5 @@
 
+
 body{
     margin:0;
     font-family: 'Hind', sans-serif;
@@ -35,12 +36,14 @@ font-family: 'Hind', sans-serif;
     font-family: 'Playfair Display SC', serif;
     letter-spacing: 1.3em;
     position: relative;
+    margin-top:-1.3em;
 }
 
 .hero-image h2{
     color:white; 
     font-size: 20px;
     margin-bottom:0.6em;
+    margin-top:1.5em;
     text-decoration: none;
     font-family: 'Playfair Display SC', serif;
     letter-spacing: 0.2em;
@@ -48,6 +51,14 @@ font-family: 'Hind', sans-serif;
     position: relative;
     
     
+}
+
+.btn-container{
+    position: absolute;
+    margin:auto;
+    width:10em;
+    margin-top: 0.5em;
+
 }
 
 .hero-image .btn{
@@ -62,12 +73,41 @@ font-family: 'Hind', sans-serif;
 
     padding:1em;
     margin-top:80px;
-    margin-left: auto;
-    margin-right: auto;
 
     cursor: pointer;
+    z-index:10;
+    position:absolute;
     
+ 
 }
+
+#codewithme {
+  color:white;
+  width:16ch;
+  animation: typing 2.5s steps(12), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-size: 0.8em;
+  position: absolute;
+  margin-top:80px;
+  z-index:1;
+  padding:1em;
+  letter-spacing: 0.3em;
+  padding-left: 2.2em;
+
+}
+@keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
 
 .hero-image nav {
     color:white;
