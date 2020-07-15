@@ -316,18 +316,21 @@ svg {
 .wrapper{
     position: relative;
     display: block;
+    align-items: center;
 }
 .text{
     position: absolute;
-    margin-top: -30px;
-    margin-left:auto;
-    margin-right: auto;
+    margin-top: 126px;
+    /* margin-left:auto;
+    margin-right: auto; */
     color:white;
-    width: 13.8em;
-    line-height: 17em;
+    width: 21.3em;
+    line-height: 1em;
     text-align: center;
     z-index:8;
     opacity:0;
+    font-size: 13px;
+    letter-spacing: 0.3em;
 
 }
 .text:hover{
@@ -352,7 +355,6 @@ svg {
 .wrapper:hover .text{
     opacity:1;
     z-index:9999;
-    font-size: 20px;
     
 }
 
@@ -384,15 +386,15 @@ svg {
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
-    width: 900px;
+    width: fit-content;
 
 
 }
 
 .thirdsection img{
     width: 10.5rem;
-    padding-right: 0.36ex;
-    padding-left: 0.36ex;
+    padding-right: 0.54ex;
+    padding-left: 0.54ex;
     
 }
 
