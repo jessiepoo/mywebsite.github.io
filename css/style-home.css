@@ -272,6 +272,12 @@ path {
 
 }
 
+#secondsectionimg2 {
+  width:fit-content;
+  width: 100;
+  height: 100;
+}
+
 .ml11 .text-wrapper {
   position: relative;
   display: inline-block;
